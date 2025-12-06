@@ -8,15 +8,15 @@ seamless image transitions.
 
 ## Table of Contents
 
-1.  Introduction\
-2.  Features\
-3.  Dependencies\
-4.  Building\
-5.  Usage\
-6.  Configuration\
-7.  How It Works\
-8.  Troubleshooting\
-9.  Future Improvements\
+1.  Introduction
+2.  Features
+3.  Dependencies
+4.  Building
+5.  Usage
+6.  Configuration
+7.  How It Works
+8.  Troubleshooting
+9.  Future Improvements
 10. License
 
 ## Introduction
@@ -32,19 +32,19 @@ loading.
 
 ## Features
 
--   Open a single image or a whole directory\
--   Background thread-based image preloading for fast switching\
--   Stores textures in a dynamically allocated array\
--   Window resizing support\
--   Keyboard navigation\
--   Image cycling using modulo logic\
--   Graceful handling of empty folders or load errors\
+-   Open a single image or a whole directory
+-   Background thread-based image preloading for fast switching
+-   Stores textures in a dynamically allocated array
+-   Window resizing support
+-   Keyboard navigation
+-   Image cycling using modulo logic
+-   Graceful handling of empty folders or load errors
 -   Clean SDL shutdown
 
 ## Dependencies
 
--   SDL2\
--   SDL2_image\
+-   SDL2
+-   SDL2_image
 -   pthreads (for background loading)
 
 ## Building
@@ -59,32 +59,30 @@ loading.
 
 ### Keys
 
--   LEFT / h → previous\
--   RIGHT / l → next\
+-   LEFT / h → previous
+-   RIGHT / l → next
 -   ESC → quit
 
 ## How It Works
 
--   Initializes SDL, window, renderer\
--   Loads file or iterates directory\
--   Preloads textures in background thread\
--   Stores all images in texture array\
--   Scales textures to window size\
+-   Initializes SDL, window, renderer
+-   Loads file or iterates directory
+-   Preloads textures in background thread
+-   Stores all images in texture array
+-   Scales textures to window size
 -   Cycles through images with modulo logic
 
 ## Troubleshooting
 
--   Black window: usually missing texture or render call\
--   Some images won't load: extension unsupported\
+-   Black window: usually missing texture or render call
+-   Some images won't load: extension unsupported
 -   Crashes: bounds or NULL texture checks missing
 
 ## Future Improvements
 
--   Fullscreen toggle\
--   EXIF rotation\
--   Zoom/pan\
+-   Fullscreen toggle
+-   EXIF rotation
+-   Zoom/pan
 -   Animated GIF support
 
-## License
 
-Add your license here.
