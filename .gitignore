@@ -1,0 +1,20 @@
+
+# Ignore the compiled binary
+iv
+
+# Object files
+*.o
+
+# Dependency files
+*.d
+
+# Build directories
+build/
+out/
+
+# SDL2-image cache (rare but safe)
+.DS_Store
+
+# Backup / temp files
+*~
+*.swp
